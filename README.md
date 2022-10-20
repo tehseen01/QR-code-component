@@ -15,8 +15,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/tehseen01/QR-code-component.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo](https://github.com/tehseen01/QR-code-component.git)
+- Live Site URL: [Live](https://tehseen01.github.io/QR-code-component/)
 
 ## My process
 
@@ -27,8 +27,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - Mobile-first workflow
 
+**#html code**
 ```html
-
 <section>
   <article class="container">
     <img src="/image-qr-code.png" alt="QR-code-image" />
@@ -41,8 +41,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 </section>
 ```
 
+**#css code**
 ```css
-
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
