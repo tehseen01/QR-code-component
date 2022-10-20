@@ -28,6 +28,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 
 ```html
+
 <section>
   <article class="container">
     <img src="/image-qr-code.png" alt="QR-code-image" />
@@ -41,6 +42,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ```
 
 ```css
+
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
