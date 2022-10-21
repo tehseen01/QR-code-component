@@ -15,8 +15,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Repo](https://github.com/tehseen01/QR-code-component.git)
-- Live Site URL: [Live](https://qr-component-tehseen01.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/tehseen01/QR-code-component.git)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -27,35 +27,44 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - Mobile-first workflow
 
-**#html code**
+**html**
+
 ```html
-<section>
+<main>
   <article class="container">
-    <img src="/image-qr-code.png" alt="QR-code-image" />
+    <img src="/image-qr-code.png" alt="" />
     <h1>Improve your front-end skills by building projects</h1>
     <p>
       Scan the QR code to visit Frontend Mentor and take your coding skills to
       the next level
     </p>
   </article>
-</section>
+</main>
 ```
 
-**#css code**
+**Flex-Box Center The Card**
+
 ```css
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-section {
+```
+
+**Other Style**
+
+```css
+main {
   background-color: hsl(0, 0%, 100%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
   border-radius: 15px;
   padding: 0.8rem;
-  width: 16rem;
+  width: 18rem;
 }
 .container {
   display: flex;
@@ -64,19 +73,20 @@ section {
   text-align: center;
 }
 img {
-  width: 16rem;
+  width: 16.5rem;
   border-radius: 12px;
 }
 h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  margin-bottom: 0;
-  font-size: 22px;
+  margin: 1rem 0;
+  font-size: 1.37em;
 }
 p {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 0.93em;
+  margin-bottom: 0.8rem;
 }
 ```
 
